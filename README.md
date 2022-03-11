@@ -22,12 +22,13 @@ much like a set of "laws of the land."
 
 telemetry is being actively developed upon, with no set release date for v1.0.
 
-### Workflows
+### Tools/Workflows
 
-This project enforces the following development workflows and practices, many being standardised in the software industry:
+telemetry uses some of the most common used practices in the software industry, as well as the following tools:
 
 - [Conventional Commits 1.0.0-beta.1](https://www.conventionalcommits.org/en/v1.0.0-beta.1/#specification)
 - [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html)
+- [Crafting Interpreters by Robert Nystorm](https://craftinginterpreters.com/)
 
 ### Activity
 
