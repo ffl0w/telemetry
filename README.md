@@ -36,3 +36,7 @@ This project is something I work on in my spare time when I am not working my jo
 [main project](https://github.com/interactions-py/library), not busy with personal life events or anything
 else barring me access from being able to sit down at my computer and do something after relaxing. Because of this,
 activity and development may and will likely fluctuate between time periods.
+
+### Discord
+
+We have a Discord server which you can [join here.](https://discord.gg/cdmfWbajGb)
