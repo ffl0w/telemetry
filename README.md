@@ -1,5 +1,5 @@
-# 📞 telemetry
-Approaching declarative programming with reactions on the go.
+# telemetry
+📞 A different approach to declarative programming with reactions on the go.
 
 ----
 
