@@ -1,10 +1,6 @@
-# telemetry
+telemetry is a poor man's attempt at making declarative programming a lesser pain in the rear with maintaining codebases.
 
-📞 A different approach to declarative programming with reactions on the go.
-
-----
-
-Hello there. If you're seeing this wiki for the first time, then welcome! telemetry is a poor man's attempt at making declarative programming a lesser pain in the rear with maintaining codebases. The main crux of the declarative paradigm is the maintenance aspect, which is due to how strict it is.
+The main crux of the declarative paradigm is the maintenance aspect, which is due to how strict it is.
 
 While this is preferred, there's no declarative-styled programming language out there that nicely goes about allowing
 conformity in layout out structure of data in a script.
