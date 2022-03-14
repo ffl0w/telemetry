@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# telemetry
 
-You can use the [editor on GitHub](https://github.com/goverfl0w/telemetry/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+📞 A different approach to declarative programming with reactions on the go.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+----
 
-### Markdown
+Hello there. If you're seeing this wiki for the first time, then welcome! telemetry is a poor man's attempt at making declarative programming a lesser pain in the rear with maintaining codebases. The main crux of the declarative paradigm is the maintenance aspect, which is due to how strict it is.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+While this is preferred, there's no declarative-styled programming language out there that nicely goes about allowing
+conformity in layout out structure of data in a script.
 
-```markdown
-Syntax highlighted code block
+telemetry aims to change that.
 
-# Header 1
-## Header 2
-### Header 3
+## Our philosophy
 
-- Bulleted
-- List
+telemetry's philosophy is simple: enable developers to write strictly structured code without the hassle of non-mutability by reflectively introspecting what's given.
 
-1. Numbered
-2. List
+"Mutable" by a programmatically defined viewpoint is the way data changes, more specifically its state. When a programming language offers mutability, it's allowing:
 
-**Bold** and _Italic_ and `Code` text
+- The outcome of data to change
+- The type of data to change
 
-[Link](url) and ![Image](src)
-```
+... and the data's meaning to change.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+While dynamically typed programming languages serve to be an important aspect of writing applications that need flexibility, they often lead to poor structuring. This can also lead over time to unnecessary operations which can rather come to be crude and against other liked ideas, such as being fast. Even if it may mean a few nanoseconds being lost, they're still precious to the developer. This is not necessarily one of the goals we're looking at achieving with telemetry, but an example of how imperative languages that employ dynamic typing begin to sacrifice organized data structures in favor of developers quickly changing things on the fly.
 
-### Jekyll Themes
+## Our goals
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/goverfl0w/telemetry/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The goals telemetry wishes to achieve can be outlined as the following:
 
-### Support or Contact
+- Act as a hybrid with permeation to data structure without outright violating original meaning.
+- Be a means of modeling and designing instructions to be sent as LCFS.
+- Give referential transparency in given rules, such as the allowance of modification to existing data structures via. aliasing and typings.
+- Concatenatively call upon cells from pointers as reference data to the original data structure.
+- Transform the state of data reactively based on permeability.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Getting started
+
+Looking at getting started with using telemetry? Check out [our page]() to learn more.
+
+(Coming soon.)
