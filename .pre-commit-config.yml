@@ -1,0 +1,24 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+    - id: debug-statements
+      name: Debugging
+      language: cpp
+      types: [file, cpp, hpp]
+      exclude_types: ['image']
+    - id: trailing-whitespace
+      name: Trailing Whitespace
+      language: cpp
+      types: [file, cpp, hpp]
+      exclude_types: ['image']
+    - id: end-of-file-fixer
+      name: EOF Newlines
+      language: cpp
+      types: [file, cpp, hpp]
+      exclude_types: ['image']
+    - id: check-yaml
+      name: YAML Structure
+      language: cpp
+    - id: check-merge-conflict
+      name: Merge Conflicts
